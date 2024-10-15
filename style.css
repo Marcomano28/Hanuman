@@ -1,5 +1,13 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .container{
   display: flex;
   align-items: center;
-   justify-content: center;
+  justify-content: center;
+  background: radial-gradient(circle, rgb(9, 13, 26), rgb(20, 5, 5));
+  width: 100vw;
+  height: 100vh;
 }
